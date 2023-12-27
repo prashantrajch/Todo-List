@@ -1,8 +1,0 @@
-#taskBox{
-    max-height: 250px;
-    overflow-y: auto;
-}
-
-.removeItem{
-    display: none !important;
-}
