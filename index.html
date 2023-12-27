@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todoBox">
+            <h1>Todo List</h1>
+            <div class="inputField">
+                <input type="text" placeholder="Add new task" required>
+                <button id="addBtn">+</button>
+            </div>
+            <div class="controls">
+                <div class="filters">
+                    <span id="all" class="active">All</span>
+                    <span id="pending">Pending</span>
+                    <span id="completed">Completed</span>
+                </div>
+                <button id="allClear">Clear All</button>
+            </div>
+            <ul class="taskBox">
+                <!-- <li class="task">
+                    <label for="0">
+                        <input type="checkbox" id="0">
+                        <p>This is heavy to do list</p>
+                    </label>
+                    <div class="settings">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <ul class="taskMenu">
+                            <li class="edit">Edit</li>
+                            <li class="delete">Delete</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="task">
+                    <label for="1">
+                        <input type="checkbox" id="1">
+                        <p>This is 1st todo list</p>
+                    </label>
+                    <div class="settings">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </li>
+                <li class="task">
+                    <label for="2">
+                        <input type="checkbox" id="2">
+                        <p>This is my 2nd todo list</p>
+                    </label>
+                    <div class="settings">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </li>
+                <li class="task">
+                    <label for="3">
+                        <input type="checkbox" id="3">
+                        <p>This is my 3rd todo list</p>
+                    </label>
+                    <div class="settings">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </li> -->
+            </ul>
+            <div class="footer" id="footer">
+                <div>You have total <span id="number">0</span> Task</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
